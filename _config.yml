@@ -1,0 +1,8 @@
+safe: true
+auto: true
+server: true
+exclude: [stylus, graphics]
+pygments: true
+lsi: true
+paginate: 10
+permalink: /blog/:year/:month/:day/:title.html
