@@ -34,4 +34,6 @@ task :build => [:stylus, :jekyll] do
 end
 
 desc "Build, run, and watch everything"
-multitask :run => [:stylus_watch, :jekyll_watch]
+multitask :run => [:stylus_watch, :jekyll_watch] do
+   puts "\n    __.ii,\n   (__,\" |    See ya later!\n       | |\n       | |"
+end
