@@ -1,7 +1,5 @@
 safe: true
-auto: true
-server: true
-exclude: [stylus, graphics]
+exclude: [stylus, graphics, Rakefile]
 pygments: true
 lsi: true
 paginate: 10
