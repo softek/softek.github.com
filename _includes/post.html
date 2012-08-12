@@ -1,0 +1,11 @@
+<article>
+   <header>
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+   </header>
+
+   {{ content }}
+
+   <footer>
+      Posted {% if post.author and post.author_url %}by <address><a href="{{ post.author_url }}" rel="author">{{ post.author }}</a></address>{% else if post.author %}by <address>{{ post.author }}</address>{% endif %} on <time datetime="{{ post.date }}">{{ post.date | date: site.long_date_format }}</time>.
+   </footer>
+</article>

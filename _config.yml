@@ -3,4 +3,5 @@ exclude: [stylus, graphics, Rakefile]
 pygments: true
 lsi: true
 paginate: 10
-permalink: /blog/:year/:month/:day/:title.html
+permalink: /:year/:month/:day/:title.html
+long_date_format: %B %d, %Y
